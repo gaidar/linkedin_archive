@@ -7,6 +7,6 @@ timer = setInterval(() => {
         items[i].click();
     }
     // click Archive button
-    button = document.getElementById('ember356');
-    button.click();
-}, 5000);
+    c = document.querySelector('li-icon[type=archive-message-icon]');
+    c.click();
+}, 3000);
